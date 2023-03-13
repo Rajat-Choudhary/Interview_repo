@@ -44,14 +44,14 @@
 # print(result)
 
 '''Solution 6'''
-def fun(string):
-    if len(string) >= 3:
-        if string[3:] != 'ing':
-            string = string + 'ing'
-            return string
-        else:
-            string = string + 'ly'
-            return string
-print(fun("abc"))
-print(fun("string"))
+# def fun(string):
+#     if len(string) >= 3:
+#         if string[3:] != 'ing':
+#             string = string + 'ing'
+#             return string
+#         else:
+#             string = string + 'ly'
+#             return string
+# print(fun("abc"))
+# print(fun("string"))
 

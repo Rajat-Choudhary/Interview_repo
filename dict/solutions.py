@@ -36,3 +36,9 @@
 # for x in range(1,n+1):
 #     d[x] = x*x
 # print(d)
+
+"""w3Resource Solution 7"""
+d = {}
+for x in range(1,16):
+    d[x] = x*x
+print(d)

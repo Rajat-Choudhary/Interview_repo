@@ -38,7 +38,46 @@
 # print(d)
 
 """w3Resource Solution 7"""
-d = {}
-for x in range(1,16):
-    d[x] = x*x
-print(d)
+# d = {}
+# for x in range(1,16):
+#     d[x] = x*x
+# print(d)
+
+"""w3Resource Solution 8"""
+# d1 = {'a': 100, 'b': 200}
+# d2 = {'x': 300, 'y': 200}
+# d = d1.copy()
+# d.update(d2)
+# print(d)
+
+"""w3Resource Solution 9"""
+# d = {'Red': 1, 'Green': 2, 'Blue': 3}
+# for key,value in d.items():
+#     print(f'Color:{key} & Value is:{value}')
+
+"""w3Resource Solution 10"""
+# my_dict = {'data1':100,'data2':-54,'data3':247}
+# sum = 0
+# for value in my_dict.values():
+#     sum = sum + value
+# print(sum)
+
+"""w3Resource Solution 11"""
+# my_dict = {'data1':100,'data2':-54,'data3':247}
+# mul = 1
+# for value in my_dict.values():
+#     mul = mul * value
+# print(mul)
+
+"""w3Resource Solution 12"""
+# myDict = {'a':1,'b':2,'c':3,'d':4}
+# print(myDict)
+# if 'a' in myDict:
+#     del myDict['a']
+# print(myDict)
+
+"""w3Resource Solution 13"""
+# keys = ['red', 'green', 'blue']
+# values = ['#FF0000','#008000', '#0000FF']
+# color_dict = dict(zip(keys,values))
+# print(color_dict)
